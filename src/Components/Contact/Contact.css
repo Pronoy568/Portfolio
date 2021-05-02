@@ -1,0 +1,106 @@
+.contact{
+	background: #3c5499;
+	padding:50px 0;
+}
+.contact .middle >h2{
+	font-size: 40px;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 50px;
+	text-align:center;
+	letter-spacing:3px;
+}
+.contact hr{
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:5px solid #273a71;
+	width:10%;
+    margin-left: 700px;
+}
+.contact{
+	font-size: 19px;
+	color:#ffffff;
+	margin:auto;
+	text-align:center;
+}
+.contact-box{
+	width:80%;
+	margin:auto;
+}
+.username:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.username {
+	margin-top:50px;
+}
+.username input{
+	font-size:20px;
+	background:#273A72;
+	padding:10px;
+	color:#fff;
+	border:1px solid transparent;
+	box-sizing:border-box;
+	margin-top:0px;
+	border-radius:5px;
+	display:block;
+	width:100%;
+}
+.username .name{
+	width:49%;
+	float:left;
+	position:relative;
+}
+.username .email{
+	width:49%;
+	float:right;
+	position:relative;
+}
+.name label{
+	color:#fff;
+	position:absolute;
+	top:11px;
+	left:17px;
+}
+.name label span{
+	color:red;
+}
+.email label{
+	color:#fff;
+	position:absolute;
+	top:11px;
+	left:17px;
+}
+.email label span{
+	color:red;
+}
+.contact-box textarea{
+	width:100%;
+	font-size:20px;
+	background:#273A72;
+	padding:10px;
+	color:#fff;
+	border:1px solid transparent;
+	box-sizing:border-box;
+	margin-top:20px;
+}
+.cal{
+	text-align:center;
+}
+.cal input{
+	background:#30bae7;
+	padding: 10px 60px;
+	font-size:20px;
+	color:#fff;
+	text-transform:uppercase;
+	margin-top:50px;
+	display:inline-block;
+	border-radius:5px;
+	border:1px solid transparent;
+	box-shadow: 0px 5px 0px #299ec5;
+}
+.cal input:hover{
+	background:#299ec5;
+}

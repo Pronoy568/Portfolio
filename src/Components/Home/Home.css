@@ -1,0 +1,41 @@
+.home-part{
+    text-align: center;
+    background-color:grey;
+}
+.home-part img{
+    height: 300px;
+    width: 300px;
+    margin-top: 80px;
+    margin-bottom:20px;
+    border-radius: 50%;
+}
+.socialsIcons {
+    margin:30px;
+    padding: 35px;
+}
+.socialsIcons ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  
+}
+.socialsIcons ul li{
+  margin: 0 5px;
+ 
+}
+.socialsIcons ul li a div:hover{
+  border: 2px solid rgb(231, 13, 13);
+  background-image: linear-gradient( rgb(9, 117, 206),rgb(163, 200, 224));
+}
+.socialsIcons ul li a div{
+  width: 50px;
+    background-image: linear-gradient(rgb(164, 198, 221), rgb(9, 129, 228));
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    border: 2px solid rgba(13, 199, 231, 0);
+    transition: .7s;
+}

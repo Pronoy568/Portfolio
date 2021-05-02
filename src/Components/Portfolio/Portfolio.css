@@ -1,0 +1,93 @@
+.style-5th{
+   height: 300px;
+   width: 550px;
+   margin-left: 490px;
+   margin-bottom: 200px;
+}
+.dflex{
+    display: flex;
+}
+.design{
+    margin-left: 160px;
+}
+.design img{
+    height: 300px;
+}
+.design p{
+    height: 100px;
+}
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+.portfolio a{
+    text-decoration: none;
+}
+.portfolio-footer{
+    margin-top: 230px;
+}
+.style-5th{
+    height: 300px;
+    width: 550px;
+    margin-left: 490px;
+    margin-bottom: 500px;
+ }
+
+.carditem {
+    transition: .5s;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+   
+.carditem:hover {
+    transform: scale(1.05) rotate(0.5deg);
+}
+
+.linkArea button {
+    outline: 0;
+    text-transform: uppercase;
+    margin: 5px 10px 20px;
+    border: none;
+    padding: 12px 25px;
+    font-size: 20px;
+    transition: .3s;
+    color: #fff;
+    background: #382e92;
+}
+
+.linkArea button:hover a{
+    padding: 12px 0px;
+    color: #fff !important;
+}
+.linkArea button:hover {
+    background: #021f69;
+
+}
+
+.linkArea button:focus {
+    outline: 0;
+    border: none;
+}
+@media only screen and (max-width: 600px) {
+    .dflex {
+      display: inline;
+      width:400px;
+    }
+    .design{
+        margin-left: 70px;
+        width: 360px;
+    }
+    .design img{
+        height: 200px;
+    }
+    .design p{
+        height: 120px;
+    }
+    .style-5th{
+        height: 300px;
+        width: 370px;
+        margin-left: 70px;
+        margin-bottom: 500px;
+     }
+  }

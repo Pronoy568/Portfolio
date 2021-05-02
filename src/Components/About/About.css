@@ -1,0 +1,22 @@
+.cv-download-about {
+    background-image: linear-gradient(to right, #740d62, #8f9930);
+    background: -webkit-linear-gradient(to right, #5af1ad, #036b0a);
+    background: linear-gradient(to right, #0b73eb, #0ebde9);
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid white;
+}
+.cv-download-about a{
+    text-decoration: none;
+    color:#e3e7a3;
+}  
+.cv-download-about:hover {
+    background-image: linear-gradient(to right, #32d3f0, #405bf3);
+}
+.photo img{
+    height: 500px;
+    width: 350px;
+}
+.about-footer{
+    margin-top: 106px;
+}
