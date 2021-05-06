@@ -1,0 +1,32 @@
+.main-container{
+    margin-top: 50px;
+    background-color:rgba(132, 123, 214, 0.514);
+    border-radius:10px
+}
+.text-skill{
+    text-align: center;
+    color: rgba(9, 68, 122, 0.822);
+}
+.skills-footer{
+    margin-top: -5px;
+}
+.skill-card{
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   margin-top: 10px;
+   text-align: center;
+   border-radius: 5px;
+   box-shadow: 3px 3px 3px 3px  rgba(68, 89, 212, 0.514);
+}
+.skill-card:hover{
+    background-color: rgba(71, 62, 80, 0.534);
+}
+.skill{
+    background-color: rgb(75, 192, 134);
+    height: 1300px;
+}
+@media only screen and (max-width: 600px) {
+    .skill {
+      height:2300px;
+    }
+  }

@@ -12,6 +12,8 @@
 }  
 .cv-download-about:hover {
     background-image: linear-gradient(to right, #32d3f0, #405bf3);
+    border: 2px solid goldenrod;
+    border-radius: 5px;
 }
 .photo img{
     height: 500px;

@@ -6,6 +6,7 @@ import './Home.css';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
@@ -38,6 +39,7 @@ const Home = () => {
         </div>
         <div>
             <Portfolio></Portfolio>
+            <Skills></Skills>
             <Contact></Contact>
             <Footer></Footer>
         </div>

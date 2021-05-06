@@ -4,6 +4,7 @@
     align-items: center;
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
+    background:#02201ed6;
 }
 .cv-download {
     background-image: linear-gradient(to right, #2bde8c, #5ce865);
@@ -13,6 +14,7 @@
 }
 .cv-download:hover {
   background-image: linear-gradient(to right, #5ce865, #2bde8c);
+  border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
   .center {

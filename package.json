@@ -11,12 +11,16 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
+    "devicon-react": "^1.1.1",
+    "devicon-react-svg": "^0.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
+    "react-circular-progressbar": "^2.0.4",
     "react-dom": "^17.0.2",
     "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-tsparticles": "^1.26.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

@@ -10,12 +10,14 @@ import Blog from '../Blog/Blog';
 import FinalContact from '../Contact/FinalContact';
 import Home from '../Home/Home';
 import MainPortfoilo from '../Portfolio/MainPortfoilo';
+import MainSkills from '../Skills/MainSkills';
 import './Main.css';
 
 const Main = () => {
     return (
+      <div className="main">
         <Router>
-        <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg  navbar-dark">
             <div className="collapse navbar-collapse container-fluid">
                 <ul className="navbar-nav ms-auto mb-4 mb-lg-0 center">
                     <li className="nav-item active">
@@ -26,6 +28,9 @@ const Main = () => {
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link me-5" to="/portfolio">Portfolio</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link me-5" to="/skill">Skills</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link me-5" to="/contact">Contact</Link>
@@ -52,11 +57,15 @@ const Main = () => {
             <Route path="/blog">
               <Blog />
             </Route>
+            <Route path="/skill">
+              <MainSkills/>
+            </Route>
             <Route path="/">
               <Home />
             </Route>
           </Switch>
       </Router>
+      </div>
     );
 };
 
