@@ -74,13 +74,13 @@ const Skills = () => {
                 <h1 className="text-skill">Skills</h1>
             </div>
             <div className="main-container shadow-lg col-md-10 offset-md-1">
-                <div style={{ padding: "50px" }}>
+                <div className="padding">
                     <div
                         data-aos="fade-up"
                         className="row"
                         >
                         {skills.map((skill, index) => (
-                        <div className="gx-3 col-md-6 ">
+                        <div className="gx-3 col-md-6">
                             <div className=" skill-card">
                             <Skill
                                     key={index}

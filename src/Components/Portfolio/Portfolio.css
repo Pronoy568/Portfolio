@@ -75,7 +75,7 @@
       width:400px;
     }
     .design{
-        margin-left: 70px;
+        margin-left: 25px;
         width: 360px;
     }
     .design img{
@@ -87,7 +87,9 @@
     .style-5th{
         height: 300px;
         width: 370px;
-        margin-left: 70px;
-        margin-bottom: 500px;
+        margin-left: 22px;
      }
+     .portfolio-footer{
+        margin-top: 160px;
+    }
   }

@@ -4,12 +4,13 @@ import food from '../../Images/food.PNG';
 import transportation from '../../Images/transportation.PNG';
 import football from '../../Images/football.PNG';
 import slider from '../../Images/slider.PNG';
-import Footer from '../Footer/Footer';
 import './Portfolio.css';
+import { Fade, Bounce, Flip, Hinge, JackInTheBox, Roll, Rotate, Slide } from "react-awesome-reveal";
 
 const Portfolio = () => {
     return (
     <div>
+       <Slide>
       <h1 className='text'>My Portfolio</h1>
       <div className="portfolio">
         <div className="dflex m-5 p-5 inline">
@@ -95,6 +96,7 @@ const Portfolio = () => {
         </div>
         <div className="portfolio-footer"></div>
       </div>
+      </Slide> 
     </div>
     );
 };

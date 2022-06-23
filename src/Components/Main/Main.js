@@ -1,3 +1,4 @@
+import ParticlesBg from 'particles-bg';
 import React from 'react';
 import {
     BrowserRouter as Router,
@@ -6,7 +7,7 @@ import {
     Link
   } from "react-router-dom";
 import About from '../About/About';
-import Blog from '../Blog/Blog';
+import MainBlog from '../Blog/MainBlog';
 import FinalContact from '../Contact/FinalContact';
 import Home from '../Home/Home';
 import MainPortfoilo from '../Portfolio/MainPortfoilo';
@@ -17,33 +18,35 @@ const Main = () => {
     return (
       <div className="main">
         <Router>
-        <nav className="navbar navbar-expand-lg  navbar-dark">
-            <div className="collapse navbar-collapse container-fluid">
-                <ul className="navbar-nav ms-auto mb-4 mb-lg-0 center">
-                    <li className="nav-item active">
-                        <Link className="nav-link me-5" to="/home">Home</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link me-5" to="/about">About</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link me-5" to="/portfolio">Portfolio</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link me-5" to="/skill">Skills</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link me-5" to="/contact">Contact</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link me-5" to="/blog">Blog</Link>
-                    </li>
-                    <li className="nav-item cv-download me-5">
-                      <a className="nav-link" href="https://drive.google.com/file/d/1hqsrD9gx-kNQJfURS1GWkmy-U4s6UnwY/view?usp=sharing" rel="noopener noreferrer" target="_blank" >Download CV</a>
-                    </li>
-                </ul>
-            </div>
-       </nav>
+          <div>
+            <nav className="navbar navbar-expand-lg  navbar-dark">
+                <div className="collapse navbar-collapse container-fluid">
+                    <ul className="navbar-nav ms-auto mb-4 mb-lg-0 center">
+                        <li className="nav-item active">
+                            <Link className="nav-link me-5" to="/home">Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link me-5" to="/about">About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link me-5" to="/portfolio">Portfolio</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link me-5" to="/skill">Skills</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link me-5" to="/blog">Blog</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link me-5" to="/contact">Contact</Link>
+                        </li>
+                        <li className="nav-item cv-download me-5">
+                          <a className="nav-link" href="https://drive.google.com/file/d/1hqsrD9gx-kNQJfURS1GWkmy-U4s6UnwY/view?usp=sharing" rel="noopener noreferrer" target="_blank" >Download CV</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+          </div>
           <Switch>
             <Route path="/about">
               <About />
@@ -55,7 +58,7 @@ const Main = () => {
               <FinalContact></FinalContact>
             </Route>
             <Route path="/blog">
-              <Blog />
+              <MainBlog />
             </Route>
             <Route path="/skill">
               <MainSkills/>

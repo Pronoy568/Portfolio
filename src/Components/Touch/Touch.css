@@ -1,0 +1,99 @@
+.touch-container{
+    margin-left: 322px;
+}
+.touch{
+    text-align: center;
+    margin-top: 40px;
+}
+.touch-container img{
+    height: 250px;
+    width: 250px;
+}
+.box{
+	height: 250px;
+	width: 250px;
+	background: url('../../Images/gmail.png');
+	background-size: 100% 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.gmail{
+	opacity:0;
+	transition: 1s;
+}
+h2{
+	color: yellow;	
+}
+.box:hover .gmail{
+	opacity:9;
+}
+.mail{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.mail-text{
+    margin-left: -10px;
+    color:rgba(35, 26, 112, 0.788);
+}
+.pm{
+    margin:10px;
+    padding: 10px;
+}
+.linkedin{
+    border-radius: 5px;
+}
+.github{
+    border-radius: 5px;
+}
+.box{
+    border-radius: 5px;
+}
+.linkedin:hover{
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.github:hover{
+    border-radius: 20px;
+    border: 3px solid red;
+}
+.box:hover{
+    border-radius: 20px;
+    border: 3px solid red;
+}
+@media only screen and (max-width: 600px) {
+    .touch-container{
+        margin-left: -15px;
+    }
+    .touch{
+        margin-top: 30px;
+        height: 250px;
+        width: 576px;
+    }
+    .touch h1{
+        margin-left: -65px;
+    }
+    .touch-container img{
+        height: 100px;
+        width: 100px;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        background: url('../../Images/gmail.png');
+        background-size: 100% 100%;
+    }
+    .mail-text{
+        margin-left: -23px;
+        margin-top: -10px;
+        color:rgba(35, 26, 112, 0.788);
+        font-size: 8px;
+    }
+    .pm{
+        margin: 0px;
+        padding: 20px;
+    }
+    .mail{
+        margin-top: 19px;
+        margin-left: 20px;
+    }
+  }

@@ -3,12 +3,12 @@ import './Blog.css';
 import js from '../../Images/js.png';
 import es6 from '../../Images/es6.jpeg';
 import react from '../../Images/React.png';
-import interview from '../../Images/Interview-questions.jpg';
 import { Fade, Bounce, Flip, Hinge, JackInTheBox, Roll, Rotate, Slide } from "react-awesome-reveal";
 
-const Blog = () => {
+const HomeBlog = () => {
     return (
-        <div className="blog big-h">
+    <div>
+        <div className="M-blog blog">
             <h1 className="B-text">My Blogs</h1>
             <div className="flex">
                 <Bounce>
@@ -42,20 +42,14 @@ const Blog = () => {
                 </div>
                 </Bounce>
             </div>
-            <div className="d-flex">
-            <Bounce>
-                <div className="card width m-5">
-                    <img src={interview} class="card-img" alt="img"/>
-                        <div class="card-body">
-                            <h5 class="card-title">Interview</h5>
-                            <p class="card-text">10 important questions for the interview...</p>
-                            <a href="https://pronoydas870.medium.com/10-important-questions-for-the-interview-b064c5072cb6" class="btn btn-primary More" target="_blank">Details</a>
-                        </div>
-                </div>
-            </Bounce>
+            <Rotate>
+            <div>
+               <a href="https://pronoydas.netlify.app/blog"><button class="B-text More-B">More Blogs</button></a> 
             </div>
+            </Rotate>
         </div>
+    </div>
     );
 };
 
-export default Blog;
+export default HomeBlog;

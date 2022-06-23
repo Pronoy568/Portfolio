@@ -2,6 +2,8 @@ import React from 'react';
 import picture from '../../Images/me.jpeg';
 import Footer from '../Footer/Footer';
 import './About.css';
+import { Fade, Bounce, Flip, Hinge, JackInTheBox, Roll, Rotate, Slide } from "react-awesome-reveal";
+import ParticlesBg from 'particles-bg';
 
 const About = () => {
     return (
@@ -11,9 +13,10 @@ const About = () => {
           <div className="col">
             <div className="row  pt-5 d-flex align-items-center about-area">
               <div className="col-md-6">
+                <Roll>
                 <div>
                   <h1>Hi, I am Pronoy Das</h1>
-                  <div>
+                  <div className="about-text">
                     <ul>
                       <li><strong>Name</strong>: Pronoy Das</li>
                       <li><strong>Age</strong>: 21 Years</li>
@@ -28,16 +31,20 @@ const About = () => {
                     </button>
                   </div>
                 </div>
-              </div>
+                </Roll>
+              </div>         
               <div className="col-md-6">
                 <div className="photo">
+                  <JackInTheBox>
                   <img className="w-100 m-auto" src={picture} alt="Pronoy Das" />
+                  </JackInTheBox>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <ParticlesBg num={180} type="fountain" bg={true} />
       <div className="about-footer">
         <Footer></Footer>
       </div>

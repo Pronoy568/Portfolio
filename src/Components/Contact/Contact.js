@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-
+import { Bounce } from "react-awesome-reveal";
 
 const Contact = () => {
     return (
@@ -22,7 +22,9 @@ const Contact = () => {
                             </div>
                             <textarea placeholder="Your Message"name="" id="" cols="30" rows="8"></textarea>
                             <div class="cal">
-                                <input type="submit" value="send Message" />
+                                <Bounce>
+                                    <input type="submit" value="send Message" />
+                                </Bounce>
                             </div>
                         </form>
                 </div>

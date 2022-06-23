@@ -104,3 +104,13 @@
 .cal input:hover{
 	background:#299ec5;
 }
+@media only screen and (max-width: 600px) {
+	.contact hr{
+		border-top:none;
+		border-left:none;
+		border-right:none;
+		border-bottom:5px solid #273a71;
+		width:10%;
+		margin-left: 217px;
+	}
+}

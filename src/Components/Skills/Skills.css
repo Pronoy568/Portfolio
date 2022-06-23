@@ -25,8 +25,26 @@
     background-color: rgb(75, 192, 134);
     height: 1300px;
 }
+.padding{
+    padding:50px;
+}
 @media only screen and (max-width: 600px) {
     .skill {
-      height:2300px;
+      height:2370px;
+      text-align: center;
+    }
+    .main-container{
+        margin-top: 30px;
+    }
+    .skill-card{
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px 3px  rgba(68, 89, 212, 0.514);
+     }
+     .padding{
+        padding:50px;
     }
   }

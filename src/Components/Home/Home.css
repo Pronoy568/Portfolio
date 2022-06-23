@@ -1,6 +1,5 @@
 .home-part{
     text-align: center;
-    background-color: #30505f;
 }
 .home-part img{
     height: 300px;
@@ -10,7 +9,7 @@
     border-radius: 50%;
 }
 .socialsIcons {
-    margin:30px;
+    margin:20px;
     padding: 35px;
 }
 .socialsIcons ul{
@@ -26,16 +25,28 @@
 .socialsIcons ul li a div:hover{
   border: 2px solid rgb(231, 13, 13);
   background-image: linear-gradient( rgb(9, 117, 206),rgb(163, 200, 224));
+  transform: scale(1.3);
 }
 .socialsIcons ul li a div{
   width: 50px;
-    background-image: linear-gradient(rgb(164, 198, 221), rgb(9, 129, 228));
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 50%;
-    font-size: 25px;
-    color: #fff;
-    border: 2px solid rgba(13, 199, 231, 0);
-    transition: .7s;
+  background-image: linear-gradient(rgb(164, 198, 221), rgb(9, 129, 228));
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #fff;
+  border: 2px solid rgba(13, 199, 231, 0);
+  transition: .7s;
+}
+.home-skill{
+  margin-top: -60px;
+}
+@media only screen and (max-width: 600px) {
+  .particles-bg{
+    display: none;
+   }
+   .home-part{
+    background-color: rgb(177, 246, 248);
+   }
 }
