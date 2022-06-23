@@ -1,4 +1,4 @@
 ### Portfolio
 
-## Live : https://stoic-minsky-10f4f0.netlify.app/
+## Live : https://pronoydas.netlify.app/
 "# Portfolio_PronoyDas" 
